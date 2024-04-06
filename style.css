@@ -1,0 +1,20 @@
+
+.block{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.box {
+    display: grid;
+    background-color: black;
+    grid-template-columns: 200px 200px 200px;
+    max-width: 600px;
+    /*max-width: 600px;*/
+}
+
+.--active{
+    background-color: brown;
+}
